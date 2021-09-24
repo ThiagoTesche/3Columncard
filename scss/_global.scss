@@ -8,13 +8,26 @@
 
 @mixin fontHeavy{
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 15px;
+    font-size: 40px;
     color: var(--Very-light-gray);
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 @mixin fontSmall{
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     color: var(--Transparent-white);
+    padding-right: 39px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+@mixin btn{
+    padding: 12px 27px;
+    border: none;
+    background-color: var(--Very-light-gray);
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
 }
