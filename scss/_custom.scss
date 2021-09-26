@@ -47,6 +47,12 @@ body{
             button{
                 @include btn;
             }
+
+            button:hover{
+                background-color: transparent;
+                color: var(--Transparent-white);
+            }
+            
         }
     }
 
