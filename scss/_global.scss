@@ -25,7 +25,7 @@
 
 @mixin btn{
     padding: 12px 27px;
-    border: none;
+    border: 2px solid var(--Very-light-gray);
     background-color: var(--Very-light-gray);
     border-radius: 30px;
     font-size: 1em;
