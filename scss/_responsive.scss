@@ -1,0 +1,44 @@
+@media screen and (max-width: 850px){
+    .container{
+        .column{
+            .text{
+                p.description{
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px){
+    .container{
+        .column{
+            .text{
+                p.description{
+                    padding-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 702px){
+    .container{
+        display: block;
+        padding: 40px;
+        padding-bottom: 150px;
+
+        .sedan{
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            border-bottom-left-radius: 0px;
+        }
+
+        .luxury{
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 7px;
+            border-bottom-left-radius: 7px;
+        }
+    }
+}
+
