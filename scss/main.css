@@ -21,6 +21,17 @@ body {
   background-color: var(--Very-light-gray);
 }
 
+header {
+  background-color: #393455;
+  text-align: center;
+  color: white;
+  padding: 12px 0;
+}
+
+header .attribution a {
+  color: white;
+}
+
 .container {
   max-width: 900px;
   height: 440px;
